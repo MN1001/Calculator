@@ -1,0 +1,64 @@
+#calbody{
+    border: solid .5px black;
+    width: 35%;
+    height: 625px;
+    margin-left: 30%;
+    margin-top: 5%;
+    box-shadow: 0 0 5px;
+    background-color: gray;
+}
+.calbtn{
+    display: flex;
+    gap: .5%;
+    flex-wrap: wrap;
+}
+.key{
+    margin-top: 5%;
+    height: 80px;
+    width: 21%;
+    margin-left: 2.9%;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+#display{
+    border: solid 1px white;
+    width: 93.5%;
+    height: 60px;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 140%;
+    text-align: right;
+    background-color: #1a1a1a;
+    color: white;
+}
+#clear{
+    border: solid 1px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+.num{
+    border: solid 1px;
+    color: white;
+    background-color:#008b8b ;
+}
+.equal{
+    border: solid 1px;
+    background-color: rgb(22, 163, 22);
+    color: white;
+}
+.op{
+    border: solid 1px;
+    background-color: #ff8c00;
+    color: white;
+}
+.ot{
+    border: solid 1px;
+    background-color: #9f00c5;
+    color: white;
+}
