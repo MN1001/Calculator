@@ -1,11 +1,12 @@
 #calbody{
     border: solid .5px black;
-    width: 35%;
-    height: 625px;
-    margin-left: 30%;
+    width: 30%;
+    height: 520px;
+    margin-left: 35%;
     margin-top: 5%;
     box-shadow: 0 0 5px;
-    background-color: gray;
+    background-color: #405263;
+    border-radius: 15px;
 }
 .calbtn{
     display: flex;
@@ -19,46 +20,48 @@
     margin-left: 2.9%;
     font-weight: bold;
     font-size: 120%;
-    border-radius: 5%;
-    -webkit-border-radius: 5%;
-    -moz-border-radius: 5%;
-    -ms-border-radius: 5%;
-    -o-border-radius: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.key:active{
+    transform: scale(.95);
 }
 #display{
-    border: solid 1px white;
+    border: none;
     width: 93.5%;
-    height: 60px;
+    height: 70px;
     margin-top: 3%;
     margin-left: 3%;
     font-size: 140%;
     text-align: right;
-    background-color: #1a1a1a;
-    color: white;
+    background-color: #d3e3f1;
+    color: black;
+    border-radius: 10px;
+    outline-style: none;
 }
 #clear{
-    border: solid 1px;
+    border: none;
     font-weight: bold;
     color: white;
     background-color: red;
+    box-shadow: 0 5px 0px rgb(211, 0, 0);
 }
 .num{
-    border: solid 1px;
-    color: white;
-    background-color:#008b8b ;
+    border: none;
+    color: black;
+    background-color:#fcfdfd ;
+    box-shadow: 0 4px 0px #ced8d9;
 }
 .equal{
-    border: solid 1px;
-    background-color: rgb(22, 163, 22);
+    border: none;
+    background-color: #fe7e01;
     color: white;
+    box-shadow: 0 5px 0px #eb6409;
 }
 .op{
-    border: solid 1px;
-    background-color: #ff8c00;
-    color: white;
-}
-.ot{
-    border: solid 1px;
-    background-color: #9f00c5;
-    color: white;
+    border: none;
+    background-color: #fcfdfd;
+    color: black;
+    box-shadow: 0 5px 0px #ced8d9;
 }
